@@ -115,3 +115,52 @@ h1, h2, h3 {
     text-align: right;
     margin-top: 60px;
 }
+
+
+/* Media Queries */
+
+@media screen and (max-width: 480px) {
+
+.navigation {
+    width: 250px;
+}
+
+.nav-links {
+    font-size: .4rem;
+    padding: 4px;
+}
+.navigation h1{
+    font-size: .8rem;
+    padding: 5px;
+    }
+
+.banner {
+    width: 250px;
+}
+
+.image-runner {
+    height: 200px;
+}
+
+.subheadings {
+    width: 200px;
+}
+
+.container {
+    width: 260px;
+}
+
+.testimonials {
+    padding: 5px;
+    font-size: .8rem;
+    width: 240px;
+}
+
+.footer-container {
+    width: 240px;
+}
+
+.copyright {
+    width: 220px;
+}
+}
